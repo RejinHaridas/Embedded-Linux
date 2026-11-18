@@ -1,0 +1,19 @@
+# Kernel module build files
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.symvers
+*.order
+.*.cmd
+Module.symvers
+modules.order
+
+# Compiled user-space applications
+ioctl_app
+test_app
+
+# Temporary files
+*.swp
+*~
